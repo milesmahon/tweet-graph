@@ -5,7 +5,7 @@ There are other ways of doing this but twurl via subprocess was the simplest now
 Setting up twurl just requires you make an application on twitter (to get a consumer key and secret) and then
 follow twurl's instructions for OAuth authentication.
 
-Read about the <a href="https://dev.twitter.com/rest/reference/get/statuses/user_timeline">twitter API</a> (specifically what this project uses).
+Read about the <a href="https://dev.twitter.com/rest/reference/get/statuses/user_timeline">Twitter API</a> (specifically what this project uses).
 
 Output looks like:
 
@@ -17,4 +17,3 @@ Output looks like:
 
 Yes, the graphs look identical. The difference is just that the PMF is a better way of conveying the information
 (as ratios over total).
-
