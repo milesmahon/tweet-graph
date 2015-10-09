@@ -9,3 +9,9 @@ https://dev.twitter.com/rest/reference/get/statuses/user_timeline
 
 Output looks like:
 
+<div align="center">
+        <img width="45%" src="imgs/BSGraph.png" title="Graph"</img>
+        <img height="0" width="8px">
+        <img width="45%" src="imgs/BSPMFGraph.png" title="PMF"></img>
+</div>
+
