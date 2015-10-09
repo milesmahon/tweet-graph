@@ -1,8 +1,9 @@
-Uses Twurl (https://github.com/twitter/twurl) to pull tweets from Bernie Sanders, counts instances of keywords
+Uses <a href="https://github.com/twitter/twurl">Twurl</a> to pull tweets from Bernie Sanders, counts instances of keywords
 and uses matplotlib.pyplot to graph them. 
+There are other ways of doing this but twurl via subprocess was the simplest now that the API requires OAuth.
 
 Setting up twurl just requires you make an application on twitter (to get a consumer key and secret) and then
-follow twurl's instructions for setup.
+follow twurl's instructions for OAuth authentication.
 
 Read about the twitter API (specifically what this project uses):
 https://dev.twitter.com/rest/reference/get/statuses/user_timeline
