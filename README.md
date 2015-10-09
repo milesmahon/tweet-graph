@@ -5,8 +5,7 @@ There are other ways of doing this but twurl via subprocess was the simplest now
 Setting up twurl just requires you make an application on twitter (to get a consumer key and secret) and then
 follow twurl's instructions for OAuth authentication.
 
-Read about the twitter API (specifically what this project uses):
-https://dev.twitter.com/rest/reference/get/statuses/user_timeline
+Read about the <a href="https://dev.twitter.com/rest/reference/get/statuses/user_timeline">twitter API</a> (specifically what this project uses).
 
 Output looks like:
 
