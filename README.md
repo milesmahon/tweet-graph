@@ -16,4 +16,4 @@ Output looks like:
 </div>
 
 Yes, the graphs look identical. The difference is just that the PMF is a better way of conveying the information
-(as ratios over total).
+(as ratios over total). The ratios do, in fact, add up to 1.0.
