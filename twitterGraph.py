@@ -3,7 +3,6 @@ import subprocess
 import matplotlib.pyplot as plt
 import numpy as np
 
-
 """
 All runs bc of twurl --
 
@@ -24,6 +23,7 @@ def parseData():
 	cmd = "twurl \"/1.1/statuses/user_timeline.json?screen_name=berniesanders&page=\""
 
 	#Upper bound of range is how many pages of tweets checked
+	#More pages is preferable, but slower.
 	for i in range (1,10):
 		output = subprocess.check_output((cmd + str(i)), shell=True) #page=1; page=2...
 		tweets = json.loads(output)
