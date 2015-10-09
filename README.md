@@ -15,3 +15,6 @@ Output looks like:
         <img width="45%" src="imgs/BSPMFGraph.png" title="PMF"></img>
 </div>
 
+Yes, the graphs look identical. The difference is just that the PMF is a better way of conveying the information
+(as ratios over total).
+
